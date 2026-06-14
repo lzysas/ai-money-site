@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { useState, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
@@ -68,7 +68,7 @@ function CheckoutContent() {
     <div className="max-w-2xl mx-auto px-4 py-16">
       <h1 className="text-3xl font-bold text-center mb-2">Checkout</h1>
       <p className="text-center text-gray-600 mb-12">
-        Secure payment via PayPal or Crypto
+        Secure payment via PayPal or Crypto | paypal.me/5542jg
       </p>
 
       <div className="bg-white rounded-2xl p-6 shadow-sm border mb-8">
@@ -215,3 +215,4 @@ export default function CheckoutPage() {
     </Suspense>
   );
 }
+
