@@ -10,9 +10,11 @@ interface Message {
 export default function ChatBot() {
   const [open, setOpen] = useState(false);
   const [messages, setMessages] = useState<Message[]>([
-    { role: "assistant", content: "Hi! I'm your AI assistant. How can I help you today? 
-
-I can tell you about our AI Headshots (\$19) and SEO Content (\$29), help with payment questions, or guide you through any issues!" },
+    {
+      role: "assistant",
+      content:
+        "Hi! I'm your AI assistant. How can I help you today?\n\nI can tell you about our AI Headshots ($19) and SEO Content ($29), help with payment questions, or guide you through any issues!",
+    },
   ]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
@@ -39,18 +41,24 @@ I can tell you about our AI Headshots (\$19) and SEO Content (\$29), help with p
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          messages: [...messages, { role: "user", content: userMsg }].map((m) => ({
-            role: m.role,
-            content: m.content,
-          })),
+          messages: [...messages, { role: "user", content: userMsg }].map(
+            (m) => ({ role: m.role, content: m.content })
+          ),
         }),
       });
       const data = await res.json();
-      setMessages((prev) => [...prev, { role: "assistant", content: data.reply }]);
+      setMessages((prev) => [
+        ...prev,
+        { role: "assistant", content: data.reply },
+      ]);
     } catch {
       setMessages((prev) => [
         ...prev,
-        { role: "assistant", content: "Sorry, I'm having connection issues. Please try again or email support@aimoneymaker.com!" },
+        {
+          role: "assistant",
+          content:
+            "Sorry, I'm having connection issues. Please try again or email support@aimoneymaker.com!",
+        },
       ]);
     }
     setLoading(false);
@@ -58,24 +66,23 @@ I can tell you about our AI Headshots (\$19) and SEO Content (\$29), help with p
 
   return (
     <>
-      {/* Chat bubble */}
       {!open && (
         <button
           onClick={() => setOpen(true)}
-          className="fixed bottom-6 right-6 z-50 w-16 h-16 bg-gradient-to-r from-purple-600 to-blue-500 text-white rounded-full shadow-2xl flex items-center justify-center text-2xl hover:scale-110 transition-all animate-bounce"
+          className="fixed bottom-6 right-6 z-50 w-16 h-16 bg-gradient-to-r from-purple-600 to-blue-500 text-white rounded-full shadow-2xl flex items-center justify-center text-2xl hover:scale-110 transition-all"
         >
           <span className="text-3xl">+</span>
         </button>
       )}
 
-      {/* Chat window */}
       {open && (
         <div className="fixed bottom-6 right-6 z-50 w-96 h-[550px] bg-white rounded-2xl shadow-2xl border border-gray-200 flex flex-col overflow-hidden">
-          {/* Header */}
           <div className="bg-gradient-to-r from-purple-600 to-blue-500 text-white p-4 flex justify-between items-center">
             <div>
               <div className="font-bold text-lg">AI Support</div>
-              <div className="text-xs text-purple-100">Online 24/7 - Instant replies</div>
+              <div className="text-xs text-purple-100">
+                Online 24/7 -- Instant replies
+              </div>
             </div>
             <button
               onClick={() => setOpen(false)}
@@ -85,12 +92,13 @@ I can tell you about our AI Headshots (\$19) and SEO Content (\$29), help with p
             </button>
           </div>
 
-          {/* Messages */}
           <div className="flex-1 overflow-y-auto p-4 space-y-3 bg-gray-50">
             {messages.map((msg, i) => (
               <div
                 key={i}
-                className={`flex ${msg.role === "user" ? "justify-end" : "justify-start"}`}
+                className={`flex ${
+                  msg.role === "user" ? "justify-end" : "justify-start"
+                }`}
               >
                 <div
                   className={`max-w-[85%] px-4 py-2.5 rounded-2xl text-sm whitespace-pre-wrap ${
@@ -108,8 +116,14 @@ I can tell you about our AI Headshots (\$19) and SEO Content (\$29), help with p
                 <div className="bg-white px-4 py-2.5 rounded-2xl rounded-bl-md shadow-sm border text-sm text-gray-500">
                   <span className="inline-flex gap-1">
                     <span className="w-2 h-2 bg-gray-400 rounded-full animate-bounce"></span>
-                    <span className="w-2 h-2 bg-gray-400 rounded-full animate-bounce" style={{ animationDelay: "0.1s" }}></span>
-                    <span className="w-2 h-2 bg-gray-400 rounded-full animate-bounce" style={{ animationDelay: "0.2s" }}></span>
+                    <span
+                      className="w-2 h-2 bg-gray-400 rounded-full animate-bounce"
+                      style={{ animationDelay: "0.1s" }}
+                    ></span>
+                    <span
+                      className="w-2 h-2 bg-gray-400 rounded-full animate-bounce"
+                      style={{ animationDelay: "0.2s" }}
+                    ></span>
                   </span>
                 </div>
               </div>
@@ -117,12 +131,19 @@ I can tell you about our AI Headshots (\$19) and SEO Content (\$29), help with p
             <div ref={bottomRef} />
           </div>
 
-          {/* Quick replies */}
           <div className="px-4 py-2 border-t bg-white flex gap-2 overflow-x-auto">
-            {["AI Headshots $19", "SEO Writer $29", "Payment methods", "Refund policy"].map((q) => (
+            {[
+              "AI Headshots $19",
+              "SEO Writer $29",
+              "Payment methods",
+              "Refund policy",
+            ].map((q) => (
               <button
                 key={q}
-                onClick={() => { setInput(q); inputRef.current?.focus(); }}
+                onClick={() => {
+                  setInput(q);
+                  inputRef.current?.focus();
+                }}
                 className="whitespace-nowrap px-3 py-1.5 bg-purple-50 text-purple-700 rounded-full text-xs font-medium hover:bg-purple-100 transition"
               >
                 {q}
@@ -130,7 +151,6 @@ I can tell you about our AI Headshots (\$19) and SEO Content (\$29), help with p
             ))}
           </div>
 
-          {/* Input */}
           <div className="p-3 border-t bg-white flex gap-2">
             <input
               ref={inputRef}
