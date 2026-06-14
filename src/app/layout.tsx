@@ -41,6 +41,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <a href="/headshots" className="hover:text-purple-600 transition hidden sm:inline">Headshots</a>
               <a href="/seo" className="hover:text-purple-600 transition hidden sm:inline">SEO</a>
               <a href="/blog" className="hover:text-purple-600 transition hidden md:inline">Blog</a>
+              <a href="/share" className="hover:text-purple-600 transition hidden md:inline">Share</a>
               <a href="/contact" className="hover:text-purple-600 transition">Support</a>
               <a href="/checkout?product=headshots&amount=19" className="bg-purple-600 text-white px-4 py-2 rounded-full hover:bg-purple-700 transition">
                 Buy $19
@@ -66,6 +67,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <div>
                 <h4 className="text-white font-bold mb-3">Company</h4>
                 <a href="/blog" className="block hover:text-white transition mb-1">Blog</a>
+                <a href="/share" className="block hover:text-white transition mb-1">Share & Earn</a>
                 <a href="/contact" className="block hover:text-white transition mb-1">Contact</a>
                 <a href="/landing" className="block hover:text-white transition mb-1">About</a>
               </div>

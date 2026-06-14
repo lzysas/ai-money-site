@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
@@ -18,7 +18,7 @@ function CheckoutContent() {
       ? "40 professional AI-generated headshots"
       : "2000+ word SEO-optimized blog article";
 
-  const USDT_ADDRESS = "TBA6jGkGETZnDgFvHFJpLGwKQBqMkqZybP";
+  const USDT_ADDRESS = "TKk2Y5xj18YCLNTHkgkUe5isQcBDBWDmfP";
 
   const handlePayPalCheckout = () => {
     const businessEmail = "lzysin@qq.com";

@@ -1,0 +1,9 @@
+﻿=== 你的 USDT (TRC20) 钱包信息 ===
+地址: TKk2Y5xj18YCLNTHkgkUe5isQcBDBWDmfP
+私钥: 8E20840C81811553B9A8CAA3A8FFC9B8B68CCF0587BF2E9BDF585992005F4259
+
+重要:
+1. 地址可以公开，用来收款
+2. 私钥绝对不能告诉任何人！
+3. 请把私钥抄下来保存在安全的地方
+4. 只用 TRC20 网络收 USDT
