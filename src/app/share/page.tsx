@@ -106,10 +106,21 @@ export default function SharePage() {
         </div>
       </div>
 
+      
+      <div className="mt-12 p-8 bg-gradient-to-r from-green-500 to-emerald-600 rounded-2xl text-white text-center">
+        <h2 className="text-2xl font-bold mb-4">Earn 20% Commission - Refer Friends!</h2>
+        <p className="mb-6 text-green-100">Share your unique link. When someone buys through it, you earn 20% of every sale. Paid via PayPal monthly.</p>
+        <div className="bg-white/20 rounded-xl p-4 inline-block mb-4">
+          <code className="text-white text-lg">ai-money-site.vercel.app?ref=you</code>
+        </div>
+        <p className="text-sm text-green-100">Replace "you" with your name. Share this link on social media, WhatsApp, WeChat, everywhere!</p>
+      </div>
+
       <div className="mt-12 text-center">
         <Link href="/" className="text-purple-600 hover:underline">Back to Home</Link>
       </div>
     </div>
   );
 }
+
 
