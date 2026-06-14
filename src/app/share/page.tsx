@@ -1,11 +1,11 @@
-"use client";
+﻿"use client";
 import Link from "next/link";
 
 const POSTS = {
   twitter: [
     {
       title: "Professional Headshot (Short)",
-      text: "Get 40 professional AI headshots for $19. No photographer needed. Upload selfies, get LinkedIn-ready photos in 3 minutes. https://tall-fans-rhyme.loca.lt/landing #AI #Headshots #LinkedIn",
+      text: "Get 40 professional AI headshots for $19. No photographer needed. Upload selfies, get LinkedIn-ready photos in 3 minutes. https://solid-planets-unite.loca.lt/landing #AI #Headshots #LinkedIn",
     },
     {
       title: "Side Hustle Angle",
@@ -13,33 +13,33 @@ const POSTS = {
     },
     {
       title: "SEO Content Pitch",
-      text: "Need blog posts that rank on Google? Our AI writes 2,000+ word SEO-optimized articles in 30 seconds. Meta tags, keywords, perfect structure. $29 per article. https://tall-fans-rhyme.loca.lt/seo",
+      text: "Need blog posts that rank on Google? Our AI writes 2,000+ word SEO-optimized articles in 30 seconds. Meta tags, keywords, perfect structure. $29 per article. https://solid-planets-unite.loca.lt/seo",
     },
   ],
   facebook: [
     {
       title: "Product Launch Post",
-      text: "Professional AI Headshots - Only $19! Get 40 stunning LinkedIn-ready headshots without hiring a photographer. Try it now: https://tall-fans-rhyme.loca.lt/landing PayPal accepted. Instant delivery. 7-day money-back guarantee.",
+      text: "Professional AI Headshots - Only $19! Get 40 stunning LinkedIn-ready headshots without hiring a photographer. Try it now: https://solid-planets-unite.loca.lt/landing PayPal accepted. Instant delivery. 7-day money-back guarantee.",
     },
     {
       title: "Before/After Post Idea",
-      text: "From selfie to professional headshot in 3 minutes! Our AI transforms your casual photos into studio-quality headshots. 100+ styles, instant download. Only $19: https://tall-fans-rhyme.loca.lt/checkout?product=headshots&amount=19 Share with a friend who needs a new LinkedIn photo!",
+      text: "From selfie to professional headshot in 3 minutes! Our AI transforms your casual photos into studio-quality headshots. 100+ styles, instant download. Only $19: https://solid-planets-unite.loca.lt/checkout?product=headshots&amount=19 Share with a friend who needs a new LinkedIn photo!",
     },
   ],
   reddit: [
     {
       title: "r/sidehustle",
-      text: "How I Built a $1K/Month AI Headshot Side Hustle (Zero Skills Required). I wanted to share my experience selling AI-generated headshots online. Here is the breakdown: Setup took 1 hour using the platform. Marketing is just posting on LinkedIn and Twitter. The AI handles all generation automatically. I collect payments via PayPal. Revenue: $19 per customer, about 2-3 sales per day. Happy to answer questions! https://tall-fans-rhyme.loca.lt",
+      text: "How I Built a $1K/Month AI Headshot Side Hustle (Zero Skills Required). I wanted to share my experience selling AI-generated headshots online. Here is the breakdown: Setup took 1 hour using the platform. Marketing is just posting on LinkedIn and Twitter. The AI handles all generation automatically. I collect payments via PayPal. Revenue: $19 per customer, about 2-3 sales per day. Happy to answer questions! https://solid-planets-unite.loca.lt",
     },
     {
       title: "r/LinkedIn",
-      text: "PSA: You can now get professional headshots for $19 using AI. I was skeptical but tried it and got 40 incredible headshots in 3 minutes. They look better than the $300 photographer I used last year. Sharing because everyone on LinkedIn needs a great profile photo. https://tall-fans-rhyme.loca.lt/landing",
+      text: "PSA: You can now get professional headshots for $19 using AI. I was skeptical but tried it and got 40 incredible headshots in 3 minutes. They look better than the $300 photographer I used last year. Sharing because everyone on LinkedIn needs a great profile photo. https://solid-planets-unite.loca.lt/landing",
     },
   ],
   linkedin: [
     {
       title: "Professional Post",
-      text: "Your LinkedIn photo is your first impression. Studies show profiles with professional headshots get 14x more views. But professional photographers charge $200-$500. I found a solution: AI-generated headshots for just $19. Upload a few selfies, get 40 professional headshots in 3 minutes. I tried it myself and the results are incredible. Check it out: https://tall-fans-rhyme.loca.lt/landing",
+      text: "Your LinkedIn photo is your first impression. Studies show profiles with professional headshots get 14x more views. But professional photographers charge $200-$500. I found a solution: AI-generated headshots for just $19. Upload a few selfies, get 40 professional headshots in 3 minutes. I tried it myself and the results are incredible. Check it out: https://solid-planets-unite.loca.lt/landing",
     },
   ],
 };
@@ -55,7 +55,7 @@ export default function SharePage() {
       <div className="mb-12 p-6 bg-gradient-to-r from-purple-50 to-blue-50 rounded-2xl border border-purple-200 text-center">
         <div className="text-2xl font-bold mb-2">Your Site URL</div>
         <div className="text-lg font-mono bg-white rounded-xl p-3 inline-block mb-2">
-          https://tall-fans-rhyme.loca.lt
+          https://solid-planets-unite.loca.lt
         </div>
         <p className="text-sm text-gray-500">Share this link everywhere!</p>
       </div>

@@ -58,7 +58,7 @@ export default function ContactPage() {
       <div className="mt-12 text-center space-y-4">
         <Link href="/" className="text-purple-600 hover:underline">Back to Home</Link>
         <div className="text-xs text-gray-400">
-          AI Money Maker | support@aimoneymaker.com | PayPal: lzysin@qq.com
+          AI Money Maker | support@aimoneymaker.com | PayPal: liuziwu16@gmail.com
         </div>
       </div>
     </div>

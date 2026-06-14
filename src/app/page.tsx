@@ -48,7 +48,7 @@ export default function Home() {
             <div className="text-4xl mb-3">Secure</div>
             <h3 className="font-bold mb-2">Secure Payment</h3>
             <p className="text-sm text-gray-600">PayPal - SSL Encrypted</p>
-            <p className="text-xs text-green-600 mt-2">lzysin@qq.com</p>
+            <p className="text-xs text-green-600 mt-2">liuziwu16@gmail.com</p>
           </div>
           <div className="bg-white rounded-2xl p-6 shadow-sm border text-center hover:shadow-md transition">
             <div className="text-4xl mb-3">Fast</div>

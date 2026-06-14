@@ -21,7 +21,7 @@ function CheckoutContent() {
   const USDT_ADDRESS = "TKk2Y5xj18YCLNTHkgkUe5isQcBDBWDmfP";
 
   const handlePayPalCheckout = () => {
-    const businessEmail = "lzysin@qq.com";
+    const businessEmail = "liuziwu16@gmail.com";
     const returnUrl =
       window.location.origin + "/success?product=" + product;
     const cancelUrl =
