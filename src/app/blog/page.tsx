@@ -9,6 +9,38 @@ export const metadata: Metadata = {
 
 const BLOG_POSTS = [
   {
+    slug: "best-ai-headshot-generator-2026",
+    title: "Best AI Headshot Generator 2026: Professional Photos for $19",
+    excerpt: "Compare the top AI headshot generators of 2026. See why AI Money Maker offers the best quality at the lowest price with instant delivery.",
+    date: "2026-06-14",
+    category: "Reviews",
+    readTime: "6 min read",
+  },
+  {
+    slug: "how-to-make-money-online-with-ai-no-skills",
+    title: "How to Make Money Online with AI in 2026 (Zero Skills Needed)",
+    excerpt: "No coding, no design, no writing skills? No problem. Learn 7 proven ways to make real money online using AI tools anyone can use.",
+    date: "2026-06-13",
+    category: "Make Money",
+    readTime: "10 min read",
+  },
+  {
+    slug: "ai-small-business-tools-free",
+    title: "15 Free & Cheap AI Tools Every Small Business Needs in 2026",
+    excerpt: "Cut costs and boost productivity with these AI tools for small business. From marketing to customer service, AI handles it all.",
+    date: "2026-06-12",
+    category: "Business",
+    readTime: "8 min read",
+  },
+  {
+    slug: "how-to-get-customers-from-social-media",
+    title: "How to Get 100+ Customers from Social Media (AI-Powered Strategy)",
+    excerpt: "Use AI to automate your social media marketing. Post-consistently, engage automatically, and convert followers into paying customers.",
+    date: "2026-06-11",
+    category: "Marketing",
+    readTime: "7 min read",
+  },
+  {
     slug: "make-money-with-ai-headshots",
     title: "How to Make $1000+/Month Selling AI Headshots in 2026",
     excerpt: "AI headshots are the perfect side hustle. Learn how to set up, market, and scale your AI headshot business with zero photography skills.",
@@ -94,3 +126,4 @@ export default function BlogPage() {
     </div>
   );
 }
+

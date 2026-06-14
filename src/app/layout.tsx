@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   },
   robots: "index, follow",
   alternates: {
-    canonical: "https://aimoneymaker.com",
+    canonical: "https://ai-money-site.vercel.app",
   },
 };
 
@@ -73,7 +73,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               </div>
               <div>
                 <h4 className="text-white font-bold mb-3">Support</h4>
-                <p className="mb-1">support@aimoneymaker.com</p>
+                <p className="mb-1">support@ai-money-site.vercel.app</p>
                 <p>7-day money-back guarantee</p>
                 <p className="mt-2 text-green-400">24/7 AI Chat Available</p>
               </div>
@@ -88,3 +88,4 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     </html>
   );
 }
+
