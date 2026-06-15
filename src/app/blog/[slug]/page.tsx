@@ -1,4 +1,4 @@
-import Link from "next/link";
+ï»¿import Link from "next/link";
 import { notFound } from "next/navigation";
 
 const BLOG_DATA: Record<string, {
@@ -9,386 +9,76 @@ const BLOG_DATA: Record<string, {
   content: string;
 }> = {
   "make-money-with-ai-headshots": {
-    title: "How to Make $1000+/Month Selling AI Headshots in 2026",
+    title: "How to Make $" + "1000+/Month Selling AI Headshots in 2026",
     date: "2026-06-10",
     category: "Side Hustle",
     readTime: "5 min read",
-    content: `# How to Make $1000+/Month Selling AI Headshots in 2026
-
-AI headshots are one of the fastest-growing digital products in 2026. With remote work becoming permanent and LinkedIn being the #1 professional networking platform, everyone needs a great headshot. But professional photographers charge $200-$500 per session.
-
-Enter AI headshots.
-
-## Why AI Headshots Are a Goldmine
-
-1. **Massive Market**: 900+ million LinkedIn users. Every one of them needs a profile photo.
-2. **Low Cost, High Margin**: AI generation costs pennies. Sell for $19-$49. That's 95%+ profit margin.
-3. **No Skills Required**: You don't need photography skills. The AI does all the work.
-4. **Scalable**: One AI can generate thousands of headshots per day. No limit to how many you can sell.
-5. **Recurring Demand**: People change jobs, update profiles, need fresh headshots regularly.
-
-## How to Start Your AI Headshot Business
-
-### Step 1: Set Up Your Store
-Use AI Money Maker's platform. We handle the AI generation, payment processing, and delivery. You just promote and collect revenue.
-
-### Step 2: Find Customers
-- Post on LinkedIn, Twitter, Reddit (r/forhire, r/LinkedIn)
-- Create TikTok/Instagram reels showing before/after transformations
-- Target real estate agents, job seekers, remote workers
-- Run $5/day Facebook ads targeting "new job" audiences
-
-### Step 3: Convert Sales
-Our 24/7 AI chatbot handles all customer questions. When someone clicks "Buy Now", PayPal processes the payment and the AI generates their headshots instantly.
-
-### Step 4: Scale Up
-Once you're making consistent sales, scale with:
-- Facebook/Instagram ads
-- Affiliate program (give 20% commission to promoters)
-- Corporate packages (bulk headshots for companies)
-- Bundle deals (headshots + resume review + LinkedIn optimization)
-
-## Real Numbers
-
-Here's what's possible:
-- Sell 2 headshot packages/day at $19 = $38/day = $1,140/month
-- Sell 5 headshot packages/day at $19 = $95/day = $2,850/month
-- Sell 10 headshot packages/day at $19 = $190/day = $5,700/month
-
-All with zero inventory, zero shipping, and AI handling support 24/7.
-
-## Get Started Today
-
-Ready to build your AI headshot business? [Click here to get started](/checkout?product=headshots&amount=19). Try it yourself, see the quality, and start reselling!
-`,
+    content: "# How to Make $" + "1000+/Month Selling AI Headshots in 2026\n\nAI headshots are one of the fastest-growing digital products in 2026. With remote work becoming permanent, everyone needs a great headshot. But professional photographers charge $" + "200-$" + "500 per session.\n\n## Why AI Headshots Are a Goldmine\n\n1. Massive Market: 900+ million LinkedIn users\n2. Low Cost, High Margin: AI generation costs pennies. Sell for $" + "19-$" + "49.\n3. No Skills Required: The AI does all the work.\n4. Scalable: One AI can generate thousands per day.\n5. Recurring Demand: People need fresh headshots regularly.\n\n## Get Started\n\nReady to build your AI headshot business? Try our free demo at ai-money-site.vercel.app/headshots or buy the full package for $" + "19.",
   },
   "seo-content-that-ranks": {
-    title: "AI SEO Content: Rank #1 on Google Without Writing a Word",
+    title: "AI SEO Content: Rank on Google Without Writing a Word",
     date: "2026-06-08",
     category: "SEO",
     readTime: "7 min read",
-    content: `# AI SEO Content: Rank #1 on Google Without Writing a Word
-
-Content is king, but writing it is a grind. Enter AI SEO content generators. They write 2000+ word articles optimized for Google in 30 seconds flat.
-
-Here's how to use AI to dominate search rankings.
-
-## Why AI-Generated Content Ranks
-
-Google's algorithm cares about:
-- **Quality**: Is the content comprehensive and helpful?
-- **EEAT**: Experience, Expertise, Authoritativeness, Trustworthiness
-- **Structure**: Proper headings, meta tags, internal links
-- **Keywords**: Natural keyword usage without stuffing
-
-AI content generators like ours create content that checks all these boxes. The key is the prompt and the structure, not whether a human typed every word.
-
-## The AI SEO Content Strategy
-
-### 1. Keyword Research (5 minutes)
-Use free tools like Google Keyword Planner, Ubersuggest, or AnswerThePublic to find:
-- High-volume, low-competition keywords
-- Long-tail variations (3+ words)
-- Question-based queries (people also ask)
-
-### 2. Generate Content (30 seconds)
-Enter your keyword into our AI SEO Content Factory. Choose your tone (professional, casual, authoritative) and length (2000-3000 words recommended).
-
-### 3. Publish and Optimize (10 minutes)
-- Add 1-2 relevant images with alt text
-- Include internal links to other blog posts
-- Add external links to authoritative sources
-- Set your meta title and description
-
-### 4. Build Backlinks
-- Guest post on related blogs
-- Share on social media
-- Get listed in directories
-- Create shareable infographics
-
-## What Our AI SEO Generator Includes
-
-Every article comes with:
-- SEO meta title (under 60 characters)
-- Meta description (under 160 characters)
-- 5 target keywords
-- H1, H2, H3 heading structure
-- Natural keyword placement
-- Readable, engaging prose
-- Call-to-action section
-
-[Try our AI SEO Content Factory now](/checkout?product=seo&amount=29) and get your first rank-ready article!
-`,
+    content: "# AI SEO Content: Rank on Google\n\nContent is king, but writing it is a grind. AI SEO content generators write 2000+ word articles optimized for Google in 30 seconds.\n\n## Why AI-Generated Content Ranks\n\nGoogle cares about quality, EEAT signals, structure, and keywords. Our AI generates content that checks all boxes.\n\n## The AI SEO Strategy\n\n1. Find keywords with free tools\n2. Generate content in 30 seconds\n3. Add images and links\n4. Publish and build backlinks\n\n## Get Your SEO Content\n\nTry our AI SEO Content Factory at ai-money-site.vercel.app. One-time $" + "29 for a 2000+ word article.",
   },
-  "passive-income-ai-tools-2026": {
-    title: "Top 10 AI Tools for Passive Income in 2026",
+  "best-ai-tools-for-side-hustle": {
+    title: "15 Best AI Tools for Side Hustles in 2026",
+    date: "2026-06-12",
+    category: "AI Tools",
+    readTime: "6 min read",
+    content: "# 15 Best AI Tools for Side Hustles\n\n## Content & Writing\n\n1. AI Money Maker - AI headshots and SEO content\n2. ChatGPT - General AI assistant\n3. Claude - Long-form writing\n4. Jasper - Marketing copy\n\n## Design & Media\n\n5. DALL-E - AI image generation\n6. Midjourney - Creative images\n7. RunwayML - AI video editing\n\n## Business\n\n8. Notion AI - Project management\n9. HubSpot - CRM\n10. Mailchimp - Email marketing\n\nStart your AI side hustle today at ai-money-site.vercel.app.",
+  },
+  "how-to-get-customers-from-social-media": {
+    title: "How to Get 100+ Customers from Social Media",
+    date: "2026-06-11",
+    category: "Marketing",
+    readTime: "5 min read",
+    content: "# How to Get Customers from Social Media\n\nSocial media has 5+ billion users. Here is the AI-powered strategy.\n\n## The 3-Platform Strategy\n\nFocus on: LinkedIn (professionals), Twitter/X (entrepreneurs), Reddit (communities).\n\n## Daily Schedule\n\n- Morning: Educational tip\n- Afternoon: Success story\n- Evening: Direct offer\n\n## Hashtags\n\nUse: #AIHeadshots #SideHustle #PassiveIncome #MakeMoneyOnline\n\n## Start Today\n\nVisit ai-money-site.vercel.app/share for ready-to-use posts.",
+  },
+  "ai-passive-income-guide": {
+    title: "The Ultimate AI Passive Income Guide 2026",
+    date: "2026-06-14",
+    category: "Passive Income",
+    readTime: "8 min read",
+    content: "# AI Passive Income Guide\n\n## What is AI Passive Income?\n\nEarning money with minimal ongoing effort using AI automation.\n\n## Top 5 AI Income Streams\n\n1. AI Headshots - Sell professional photos for $" + "19 each\n2. SEO Content - Write articles for $" + "29 each\n3. Digital Products - Create once, sell forever\n4. Affiliate Marketing - Promote AI tools\n5. Print on Demand - AI-designed merchandise\n\n## Start with AI Headshots\n\nThe easiest entry point. No inventory, no shipping, no customer support (AI chatbot handles it).\n\nGet started: ai-money-site.vercel.app",
+  },
+  "linkedin-headshot-tips": {
+    title: "10 LinkedIn Headshot Tips That Get You Hired",
+    date: "2026-06-13",
+    category: "Career",
+    readTime: "4 min read",
+    content: "# 10 LinkedIn Headshot Tips\n\nYour LinkedIn photo is your first impression. Make it count.\n\n1. Professional attire\n2. Clean background\n3. Good lighting\n4. Face takes 60% of frame\n5. Natural smile\n6. Recent photo\n7. High resolution\n8. Eye contact\n9. No filters\n10. Consistent across platforms\n\nGet AI-generated professional headshots at ai-money-site.vercel.app/headshots for $" + "19.",
+  },
+  "digital-product-ideas": {
+    title: "20 Digital Products You Can Sell Online in 2026",
+    date: "2026-06-09",
+    category: "Digital Products",
+    readTime: "6 min read",
+    content: "# 20 Digital Products to Sell\n\n1. AI Headshots\n2. SEO Articles\n3. Social Media Templates\n4. Resume Templates\n5. E-books\n6. Online Courses\n7. Stock Photos\n8. Website Themes\n9. Mobile Apps\n10. Printables\n11. Music/Audio\n12. Video Templates\n13. Spreadsheets\n14. Email Templates\n15. Planners\n16. Fonts\n17. Icons\n18. Mockups\n19. Chatbots\n20. API Access\n\nStart with AI headshots at ai-money-site.vercel.app. Lowest barrier to entry.",
+  },
+  "twitter-marketing-strategy": {
+    title: "Twitter/X Marketing Strategy for AI Products",
+    date: "2026-06-07",
+    category: "Marketing",
+    readTime: "5 min read",
+    content: "# Twitter/X Marketing Strategy\n\nX is perfect for promoting AI products like headshots.\n\n## Strategy\n\n1. Post 3x daily (morning, noon, evening)\n2. Use relevant hashtags\n3. Engage with replies quickly\n4. Share before/after transformations\n5. Thread about AI income journey\n\n## What to Post\n\n- Educational AI content\n- Income reports\n- Customer results\n- Behind the scenes\n- Direct offers\n\nGet ready-to-post content at ai-money-site.vercel.app/share.",
+  },
+  "ai-side-hustle-mistakes": {
+    title: "7 AI Side Hustle Mistakes Beginners Make",
+    date: "2026-06-06",
+    category: "Side Hustle",
+    readTime: "5 min read",
+    content: "# 7 AI Side Hustle Mistakes\n\n1. Trying to do everything manually - Use AI automation\n2. Overcomplicating the offer - Keep it simple\n3. Not having a sales funnel - Capture emails\n4. Ignoring customer support - Use AI chatbot\n5. Pricing too low - Value your work\n6. No social proof - Collect testimonials\n7. Giving up too early - Consistency wins\n\nAvoid these mistakes. Start at ai-money-site.vercel.app.",
+  },
+  "passive-income-myths": {
+    title: "10 Passive Income Myths Debunked",
     date: "2026-06-05",
     category: "Passive Income",
     readTime: "6 min read",
-    content: `# Top 10 AI Tools for Passive Income in 2026
-
-The AI revolution has created unprecedented passive income opportunities. Here are the top 10 AI tools that can earn you money 24/7.
-
-## 1. AI Headshot Generators
-Turn selfies into professional headshots. Sell for $19-$49 each. 95%+ profit margin. [Try AI Money Maker's headshot generator](/checkout?product=headshots&amount=19)
-
-## 2. AI Content Writers
-Generate blog posts, social media content, and marketing copy. Sell to businesses or build your own content sites. [Our SEO Content Factory](/checkout?product=seo&amount=29)
-
-## 3. AI Image Generators
-Create stock photos, logos, and illustrations. Sell on Etsy, Creative Market, or Shutterstock.
-
-## 4. AI Voice Cloning
-Create voiceovers, audiobooks, and podcast intros. Sell on Fiverr or Upwork.
-
-## 5. AI Chatbots
-Build customer service bots for businesses. Charge monthly retainers.
-
-## 6. AI Video Generators
-Create short-form videos for TikTok/Reels. Monetize through sponsorships.
-
-## 7. AI Transcription Services
-Convert audio to text. Target podcasters, journalists, and researchers.
-
-## 8. AI Code Assistants
-Help non-technical founders build MVPs. Charge by project or hourly.
-
-## 9. AI Resume Builders
-Generate optimized resumes and cover letters. Sell to job seekers.
-
-## 10. AI Translation Services
-Translate content between languages. Target e-commerce businesses going global.
-
-## Start Your AI Income Journey
-
-The easiest starting point? AI headshots and AI content writing. Low barrier to entry, high demand, and our platform handles everything automatically.
-
-[Start earning with AI today](/checkout?product=headshots&amount=19)
-`,
+    content: "# 10 Passive Income Myths\n\nMyth 1: Passive income is completely hands-off\nTruth: It requires initial effort, then minimal maintenance.\n\nMyth 2: You need lots of money to start\nTruth: AI tools like ours start at $" + "19.\n\nMyth 3: It is too saturated\nTruth: AI headshots are still an emerging market.\n\nMyth 4: You need technical skills\nTruth: Our platform handles all the tech.\n\nStart building passive income today: ai-money-site.vercel.app.",
   },
-
-  "best-ai-headshot-generator-2026": {
-    title: "Best AI Headshot Generator 2026: Professional Photos for 19",
-    date: "2026-06-14",
-    category: "Reviews",
-    readTime: "6 min read",
-    content: +""+@"# Best AI Headshot Generator 2026: Why AI Money Maker Wins
-
-Looking for the best AI headshot generator in 2026? You are in the right place. We tested every major platform and here is what we found.
-
-## Why AI Headshots Are Exploding
-
-Remote work means everyone needs a great profile photo. But studio photographers charge 200-500. AI headshot generators deliver professional results for under 20.
-
-## What to Look for in an AI Headshot Generator
-
-1. **Quality**: Photos must look real, not obviously AI-generated
-2. **Speed**: Under 5 minutes from upload to download
-3. **Styles**: Multiple backgrounds, outfits, and professional looks
-4. **Price**: Should be under 25 per set
-5. **Privacy**: Your photos should not be stored or shared
-
-## AI Money Maker: The Winner
-
-After testing 12 platforms, AI Money Maker ranked #1 for:
-
-- **40 headshots for 19** - best value anywhere
-- **3-minute generation** - fastest in the industry
-- **PayPal and Crypto** accepted
-- **24/7 AI chatbot support** - instant answers
-- **Money-back guarantee** - zero risk
-
-## Comparison Table
-
-| Platform | Price | Photos | Speed | Rating |
-|----------|-------|--------|-------|--------|
-| **AI Money Maker** | **19** | **40** | **3 min** | **?????** |
-| Competitor A | 29 | 20 | 15 min | ??? |
-| Competitor B | 39 | 30 | 30 min | ??? |
-| Competitor C | 49 | 50 | 60 min | ???? |
-
-## How to Get Started
-
-1. Visit [ai-money-site.vercel.app](/landing)
-2. Upload 5-10 selfies
-3. Select your preferred styles
-4. Pay 19 via PayPal
-5. Download 40 professional headshots in 3 minutes
-
-**Bottom Line**: AI Money Maker offers the best combination of quality, speed, and price. Try it risk-free today.
-
-[Get AI Headshots for 19 ¡ú](/checkout?product=headshots&amount=19)
-+""+@"
-  },
-
-  "how-to-make-money-online-with-ai-no-skills": {
-    title: "How to Make Money Online with AI in 2026 (Zero Skills Needed)",
-    date: "2026-06-13",
-    category: "Make Money",
-    readTime: "10 min read",
-    content: +""+@"# How to Make Money Online with AI in 2026 (Zero Skills Needed)
-
-You don not need coding, design, or writing skills to make money with AI in 2026. Here are 7 proven methods anyone can start today.
-
-## 1. Sell AI-Generated Headshots
-
-The easiest entry point. Upload selfies, AI creates professional headshots, you sell for 19-49 each. AI Money Maker handles everything automatically. Potential: 1,000-5,000/month.
-
-[Start selling AI headshots ¡ú](/checkout?product=headshots&amount=19)
-
-## 2. Sell AI-Written SEO Blog Posts
-
-Businesses need content for Google rankings. Our AI writes 2,000+ word articles optimized for search engines. You sell for 29-99 each. Potential: 2,000+/month.
-
-[Get AI SEO content ¡ú](/checkout?product=seo&amount=29)
-
-## 3. AI Chatbot Customer Service
-
-Offer 24/7 AI chatbot support to small businesses. Set up takes minutes. Charge 50-200/month per client.
-
-## 4. AI Social Media Management
-
-Use AI to write and schedule social media posts for businesses. 10 clients x 100/month = 1,000/month.
-
-## 5. AI Resume & Cover Letter Service
-
-AI writes professional resumes and cover letters. Charge 25-75 each. Huge demand from job seekers.
-
-## 6. AI Logo & Brand Design
-
-Generate logos and brand kits with AI. Sell on Fiverr or Etsy for 15-50 each.
-
-## 7. AI Tutoring & Course Creation
-
-Create online courses with AI content generation. Sell on Udemy or your own site.
-
-## The Secret: Start Today
-
-The best time to start was yesterday. The second best time is now. AI Money Maker gives you everything you need to start earning within the next hour.
-
-[Start your AI income journey ¡ú](/)
-+""+@"
-  },
-
-  "ai-small-business-tools-free": {
-    title: "15 Free & Cheap AI Tools Every Small Business Needs in 2026",
-    date: "2026-06-12",
-    category: "Business",
-    readTime: "8 min read",
-    content: +""+@"# 15 Free & Cheap AI Tools Every Small Business Needs in 2026
-
-Running a small business is hard. These AI tools make it easier - and most are free or under 30.
-
-## Marketing & Content
-
-1. **AI Money Maker SEO Writer** - 2,000+ word blog posts that rank on Google. 29/article. [Try it ¡ú](/checkout?product=seo&amount=29)
-
-2. **AI Money Maker Headshots** - Professional team photos without a photographer. 19/person. [Get headshots ¡ú](/checkout?product=headshots&amount=19)
-
-3. **Canva AI** - Free AI design tool for social media graphics
-
-4. **ChatGPT** - Free AI writing assistant for emails, ads, and social posts
-
-## Customer Service
-
-5. **AI Money Maker Chatbot** - 24/7 automated customer support. Handles inquiries, collects leads, answers FAQs
-
-6. **Tidio** - Free AI chatbot for your website
-
-## Productivity
-
-7. **Notion AI** - AI-powered notes and project management
-
-8. **Otter.ai** - AI meeting transcription
-
-## Design & Media
-
-9. **DALL-E** - AI image generation for marketing materials
-
-10. **RunwayML** - AI video editing and generation
-
-## Sales & Leads
-
-11. **HubSpot Free CRM** - Customer relationship management
-
-12. **Mailchimp** - Free email marketing (up to 500 contacts)
-
-13. **AI Money Maker Lead Capture** - Automated email collection and follow-up sequences
-
-## Finance
-
-14. **Wave** - Free accounting and invoicing software
-
-15. **Stripe/PayPal** - Free payment processing (pay per transaction)
-
-## Bottom Line
-
-You can run an entire small business with AI tools for under 100/month. Start with AI Money Maker for content and headshots - it is the highest ROI investment you will make.
-
-[Explore AI Money Maker ¡ú](/)
-+""+@"
-  },
-
-  "how-to-get-customers-from-social-media": {
-    title: "How to Get 100+ Customers from Social Media (AI-Powered)",
-    date: "2026-06-11",
-    category: "Marketing",
-    readTime: "7 min read",
-    content: +""+@"# How to Get 100+ Customers from Social Media Using AI
-
-Social media has 5+ billion active users. Capturing even 0.0001% of them can build a thriving business. Here is the AI-powered strategy.
-
-## The 3-Platform Strategy
-
-Focus on these 3 platforms:
-
-1. **LinkedIn** - Professionals looking for headshots and career content
-2. **Twitter/X** - Entrepreneurs seeking AI tools and side hustles
-3. **Reddit** - Communities actively asking for recommendations
-
-## AI Content Calendar
-
-Use our [Share Page](/share) for ready-to-post content. Copy, paste, post. AI generates new marketing copy for you.
-
-### Daily Posting Schedule
-
-- **Morning (8 AM)**: Educational tip about AI or career
-- **Afternoon (2 PM)**: Customer testimonial or success story
-- **Evening (7 PM)**: Direct offer with link to your site
-
-## The AI Engagement System
-
-Reply to every comment within 5 minutes using AI chatbot responses. Engagement signals boost your posts in the algorithm.
-
-## Hashtag Strategy
-
-Use these hashtags for maximum reach:
-- #AIHeadshots #AItools #SideHustle #PassiveIncome #MakeMoneyOnline
-- #LinkedInTips #CareerAdvice #RemoteWork #DigitalProducts #SEO
-
-## Conversion Funnel
-
-1. Social post ¡ú Clicks to your site
-2. Landing page ¡ú Captures email or direct checkout
-3. AI chatbot ¡ú Answers questions, overcomes objections
-4. PayPal checkout ¡ú Instant payment
-5. AI delivery ¡ú Customer gets product in minutes
-6. Follow-up ¡ú Automated thank you + upsell
-
-## Real Results
-
-Users of AI Money Maker report:
-- 50-200 daily site visitors from social media
-- 2-5% conversion rate
-- 38-190/day in passive income
-
-## Start Your Social Media Engine
-
-Visit [ai-money-site.vercel.app/share](/share) for ready-to-use posts. Copy, paste, and start attracting customers today.
-
-[Get your marketing toolkit ¡ú](/share)
-+""+@"
-  },};
+};
 
 export default function BlogPostPage({ params }: { params: { slug: string } }) {
   const post = BLOG_DATA[params.slug];
@@ -412,10 +102,10 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
         <p className="text-gray-600 mb-4">Try our AI tools today. One-time payment, instant delivery.</p>
         <div className="flex gap-4 justify-center flex-wrap">
           <Link href="/checkout?product=headshots&amount=19" className="px-6 py-3 bg-purple-600 text-white rounded-full font-semibold hover:bg-purple-700 transition">
-            AI Headshots $19
+            AI Headshots $" + "19
           </Link>
           <Link href="/checkout?product=seo&amount=29" className="px-6 py-3 bg-blue-600 text-white rounded-full font-semibold hover:bg-blue-700 transition">
-            SEO Content $29
+            SEO Content $" + "29
           </Link>
         </div>
       </div>
@@ -425,5 +115,3 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
     </div>
   );
 }
-
-
